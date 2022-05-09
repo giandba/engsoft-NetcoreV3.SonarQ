@@ -1,0 +1,4 @@
+.vscode
+.sonarqube
+*/obj/*
+*/bin/*

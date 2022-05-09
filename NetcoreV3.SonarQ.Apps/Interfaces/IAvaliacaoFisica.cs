@@ -2,6 +2,12 @@ namespace NetcoreV3.SonarQ.Apps.Interfaces
 {
     public interface IAvaliacaoFisica
     {
-         decimal CalcularIMC(decimal alturaCm, decimal pesoKg);
+        
+        /// <summary>
+        ///    IMC = peso / (altura x altura).
+        /// </summary>
+         double CalcularIMC(double alturaCm, double pesoKg);
+
+         string RetornaClassificacaoIMC(double indiceImc);
     }
 }

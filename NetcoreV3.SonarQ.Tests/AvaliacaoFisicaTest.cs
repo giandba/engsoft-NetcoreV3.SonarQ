@@ -23,7 +23,7 @@ namespace NetcoreV3.SonarQ.Tests
             var imc = this.app.CalcularIMC(190, 90);
 
             //Assert
-            Assert.IsTrue(imc.Equals(90));
+            Assert.IsTrue(imc.Equals(1));
         }
 
         [TestMethod]
@@ -35,7 +35,7 @@ namespace NetcoreV3.SonarQ.Tests
             var imc = this.app.CalcularIMC(190, 90);
 
             //Assert
-            Assert.IsFalse(imc.Equals(85));
+            Assert.IsFalse(imc.Equals(1));
         }
     }
 }

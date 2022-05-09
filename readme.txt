@@ -39,16 +39,23 @@ dotnet sln .\NetcoreV3.SonarQ.sln add .\NetcoreV3.SonarQ.Apps\NetcoreV3.SonarQ.A
 dotnet sln .\NetcoreV3.SonarQ.sln add .\NetcoreV3.SonarQ.Api\NetcoreV3.SonarQ.Api.csproj
 dotnet sln .\NetcoreV3.SonarQ.sln add .\NetcoreV3.SonarQ.Tests\NetcoreV3.SonarQ.Tests.csproj
 
+## GIT config
+git config user.name ""
+git config user.email ""
+
+##
+
 
 https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/
-##https://medium.com/@thiagoloureiro/an%C3%A1lise-de-c%C3%B3digo-com-sonarqube-docker-net-core-aad17147486a
 
 #compose container
-docker-compose -f ./docker-compose.yml -p container_sonarq up
+docker pull sonarqube
+
+docker run --name sonarqube_v2 -d -p 9000:9000 sonarqube
 
 #http://localhost:9000
 Login: admin
-Password: bitnami
+Password: admin123
 
 ####
 dotnet tool install --global dotnet-sonarscanner
