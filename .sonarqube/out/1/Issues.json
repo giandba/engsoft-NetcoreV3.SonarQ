@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.7.0.0",
+        "fileVersion": "3.7.0-6.20570.4 (dc3f4eef)",
+        "semanticVersion": "3.7.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"GerarCodigoCadastroTest.app\" nunca é usado",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/_Storage/Giancarlo/_UniBrasil/_workspaceUnibrasil/NetcoreV3.SonarQ/NetcoreV3.SonarQ.Tests/GerarCodigoCadastroTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 47,
+                  "endLine": 11,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/_Storage/Giancarlo/_UniBrasil/_workspaceUnibrasil/NetcoreV3.SonarQ/NetcoreV3.SonarQ.Tests/GerarCodigoCadastroTest.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 21,
+                  "endLine": 31,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/_Storage/Giancarlo/_UniBrasil/_workspaceUnibrasil/NetcoreV3.SonarQ/NetcoreV3.SonarQ.Tests/GerarCodigoCadastroTest.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 21,
+                  "endLine": 19,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "O campo nunca é usado",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

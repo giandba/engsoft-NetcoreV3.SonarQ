@@ -1,0 +1,6 @@
+projectKey=engsoft-qualidadecodigo-v1
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=engsoft-qualidadecodigo-v1
+ceTaskId=AYCp-j1qBgq_NActuxw3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYCp-j1qBgq_NActuxw3

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>NetcoreV3.SonarQ.Apps</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>be0988ed-38af-4bce-85c6-b1d8cc1c8ff7</ProjectGuid>
+  <FullPath>E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\NetcoreV3.SonarQ.Apps.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\.sonarqube\conf\3\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\.sonarqube\out\3\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\.sonarqube\out\3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp3.1</TargetFramework>
+</ProjectInfo>

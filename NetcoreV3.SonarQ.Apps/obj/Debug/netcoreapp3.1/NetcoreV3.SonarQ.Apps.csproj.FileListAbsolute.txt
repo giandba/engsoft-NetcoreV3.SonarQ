@@ -1,0 +1,9 @@
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\bin\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.deps.json
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\bin\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.dll
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\bin\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.pdb
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.csprojAssemblyReference.cache
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.AssemblyInfoInputs.cache
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.AssemblyInfo.cs
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.csproj.CoreCompileInputs.cache
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.dll
+e:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.pdb

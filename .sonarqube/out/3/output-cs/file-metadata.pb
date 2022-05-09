@@ -1,0 +1,11 @@
+w
+nE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\AvaliacaoFisica.csutf-8Ö
+|E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\ConexaoDBs\ConexaoDBSqlServer.csutf-8ç
+ÉE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadrao1.csutf-8ç
+ÉE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadrao2.csutf-8ê
+ÜE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadraoBase.csutf-8É
+zE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Interfaces\IAvaliacaoFisica.csutf-8}
+tE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Interfaces\IConexaoDB.csutf-8á
+~E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Interfaces\IGerarCodigoCadastro.csutf-8Æ
+¢E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8•
+ôE:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\obj\Debug\netcoreapp3.1\NetcoreV3.SonarQ.Apps.AssemblyInfo.csutf-8
