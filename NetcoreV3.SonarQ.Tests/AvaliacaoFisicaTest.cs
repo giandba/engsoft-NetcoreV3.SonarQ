@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NetcoreV3.SonarQ.Apps;
+using NetcoreV3.SonarQ.Apps.DomainExceptions;
 using NetcoreV3.SonarQ.Apps.Interfaces;
 
 namespace NetcoreV3.SonarQ.Tests
@@ -23,7 +24,7 @@ namespace NetcoreV3.SonarQ.Tests
             var imc = this.app.CalcularIMC(190, 90);
 
             //Assert
-            Assert.IsTrue(imc.Equals(1));
+            Assert.IsTrue(imc.Equals(24.93));
         }
 
         [TestMethod]
@@ -35,7 +36,19 @@ namespace NetcoreV3.SonarQ.Tests
             var imc = this.app.CalcularIMC(190, 90);
 
             //Assert
-            Assert.IsFalse(imc.Equals(1));
+            Assert.IsFalse(!imc.Equals(24.93));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ValorInvalidoException))]
+        public void DeveCalcularImcDivisaoPorZero()
+        {
+            //Arrange
+
+            //Act
+            var imc = this.app.CalcularIMC(0, 90);
+
+            //Assert
         }
     }
 }

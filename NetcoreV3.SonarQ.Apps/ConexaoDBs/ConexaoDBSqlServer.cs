@@ -4,14 +4,16 @@ using Microsoft.Data.SqlClient;
 using NetcoreV3.SonarQ.Apps.Interfaces;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
 
 namespace NetcoreV3.SonarQ.Apps.ConexaoDBs
 {
+    [ExcludeFromCodeCoverage]
     public class ConexaoDBSqlServer : IConexaoDB
     {
-        public Task<dynamic> ConsultaUsuarioPorId(string nome)
+        public async Task<dynamic> ConsultaUsuarioPorId(string nome)
         {
-            return null;
+            return await Task.FromResult<dynamic>(null);
         }
 
         public async Task<IEnumerable<dynamic>> ConsultaUsuarioPorNome(string nome)
@@ -46,25 +48,19 @@ namespace NetcoreV3.SonarQ.Apps.ConexaoDBs
             using (var sqlCmd = new SqlCommand(query, sqlCon))
             {
                 sqlCon.Open();
-                while (1 == 1)
+                var sqlReader = sqlCmd.ExecuteReader();
+                sqlCon.Close();
+
+                var dt = new DataTable();
+                dt.Load(sqlReader);
+                List<DataRow> rows = dt.AsEnumerable().ToList();
+                var x = rows
+                    .OrderBy(person => person["a1"])
+                    .ThenBy(person => person["a5"]).ToList();
+
+                if (x.Count > 0)
                 {
-                    var sqlReader = sqlCmd.ExecuteReader();
-                    sqlCon.Close();
-
-                    var dt = new DataTable();
-                    dt.Load(sqlReader);
-                    List<DataRow> rows = dt.AsEnumerable().ToList();
-                    var x = rows
-                        .OrderBy(person => person["a1"])
-                        .OrderBy(person => person["a2"])
-                        .OrderBy(person => person["a3"])
-                        .OrderBy(person => person["a4"])
-                        .OrderBy(person => person["a5"]).ToList();
-
-                    if (x.Count > 0)
-                    {
-                        return true;
-                    }
+                    return true;
                 }
                 return true;
             }

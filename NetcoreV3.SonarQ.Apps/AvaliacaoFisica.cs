@@ -1,3 +1,5 @@
+using System;
+using NetcoreV3.SonarQ.Apps.DomainExceptions;
 using NetcoreV3.SonarQ.Apps.Interfaces;
 
 namespace NetcoreV3.SonarQ.Apps
@@ -7,10 +9,26 @@ namespace NetcoreV3.SonarQ.Apps
         /// <summary>
         ///    IMC = peso / (altura x altura).
         /// </summary>
-        public double CalcularIMC(double alturaCM, double pesoKG)
+        public double CalcularIMC(double alturaCm, double pesoKg)
         {
-            var teste = 0;
-            return 1;
+            if (alturaCm == 0)
+            {
+                throw new ValorInvalidoException("Altura deve ser maior zero");
+            }
+            try
+            {
+
+                var alturaM = alturaCm / 100;
+                var imc = pesoKg / (alturaM * alturaM);
+                var imc2Dig = System.Math.Round(imc, 2);
+                return imc2Dig;
+
+            }
+            catch (Exception ex)
+            {
+                throw new ValorInvalidoException("Erro ao calcular imc", ex);
+            }
+
         }
 
         public string RetornaClassificacaoIMC(double indiceImc)
