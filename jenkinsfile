@@ -5,6 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Building..' + env.BRANCH_NAME
+                deleteDir()
+                checkout scm
             }
         }
         stage('Build') {

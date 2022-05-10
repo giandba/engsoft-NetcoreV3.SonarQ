@@ -73,3 +73,9 @@ dotnet sonarscanner begin /k:"engsoft-qualidadecodigo-v1" /d:sonar.host.url="htt
 dotnet build
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="./coverage_result/"
 dotnet sonarscanner end /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e"
+
+
+
+docker pull jenkins/jenkins
+docker run  --name jenkins_v2 -p 8080:8080 -p 50000:50000 jenkins/jenkins
+docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins:2.60.3
