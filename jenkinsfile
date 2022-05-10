@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Building..' + env.BRANCH_NAME
                 deleteDir()
                 checkout scm
             }
@@ -12,11 +11,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
+
+                sh 'dotnet tool install --global dotnet-sonarscanner'
+                sh 'dotnet sonarscanner begin /k:"engsoft-qualidadecodigo-v1" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e" /d:sonar.cs.opencover.reportsPaths="./NetcoreV3.SonarQ.Tests/coverage_result/coverage.opencover.xml"'
+                sh 'dotnet build'
+                sh 'dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="./coverage_result/"'
+                sh 'dotnet sonarscanner end /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e"'
+
             }
         }
         stage('Deploy') {
