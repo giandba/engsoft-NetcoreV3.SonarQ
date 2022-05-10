@@ -12,10 +12,10 @@ pipeline {
             steps {
                 echo 'Building..'
 
-                sh 'dotnet tool install --global dotnet-sonarscanner'
+                sh 'dotnetToolInstall --global dotnet-sonarscanner'
                 sh 'dotnet sonarscanner begin /k:"engsoft-qualidadecodigo-v1" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e" /d:sonar.cs.opencover.reportsPaths="./NetcoreV3.SonarQ.Tests/coverage_result/coverage.opencover.xml"'
-                sh 'dotnet build'
-                sh 'dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="./coverage_result/"'
+                sh 'dotnetBuild'
+                sh 'dotnetTest /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="./coverage_result/"'
                 sh 'dotnet sonarscanner end /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e"'
 
             }
