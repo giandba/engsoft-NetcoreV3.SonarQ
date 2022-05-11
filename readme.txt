@@ -1,3 +1,8 @@
+https://gitlab.com/u930/netcorev3.sonarq
+
+glpat-BaYSt9WjSkvYxwaxWzRv
+
+
 #donwload netcore sdk
 https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.410-windows-x64-installer
 
