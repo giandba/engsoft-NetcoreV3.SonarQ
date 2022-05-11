@@ -14,8 +14,8 @@ ctrl + '
 
 #criar projeto console app
 mkdir NetcoreV3.SonarQ.Apps
-cd ./NetcoreV3.SonarQ.ConsoleApp
-dotnet new console -f netcoreapp3.1
+cd ./NetcoreV3.SonarQ.Apps
+dotnet new classlib -f netcoreapp3.1
 
 #criar projeto web
 mkdir NetcoreV3.SonarQ.Api
