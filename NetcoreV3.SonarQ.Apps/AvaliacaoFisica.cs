@@ -11,16 +11,12 @@ namespace NetcoreV3.SonarQ.Apps
         /// </summary>
         public double CalcularIMC(double alturaCm, double pesoKg)
         {
-            if (alturaCm == 0)
-            {
-                throw new ValorInvalidoException("Altura deve ser maior zero");
-            }
             try
             {
 
-                var alturaM = alturaCm / 100;
-                var imc = pesoKg / (alturaM * alturaM);
-                var imc2Dig = System.Math.Round(imc, 2);
+                double alturaM = alturaCm / 100;
+                double imc = pesoKg / (alturaM * alturaM);
+                double imc2Dig = System.Math.Round(imc, 2);
                 return imc2Dig;
 
             }

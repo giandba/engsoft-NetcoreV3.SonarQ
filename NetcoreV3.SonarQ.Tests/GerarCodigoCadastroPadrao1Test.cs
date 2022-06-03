@@ -4,7 +4,6 @@ using NetcoreV3.SonarQ.Apps;
 using NetcoreV3.SonarQ.Apps.Factories;
 using NetcoreV3.SonarQ.Apps.Interfaces;
 
-
 namespace NetcoreV3.SonarQ.Tests
 {
     [TestClass]
@@ -31,18 +30,6 @@ namespace NetcoreV3.SonarQ.Tests
 
             //Assert
             Assert.IsTrue(codigo == "ABC-123999");
-        }
-
-        [TestMethod]
-        public void RetornaCodigoPadrao2()
-        {
-            //Arrange
-
-            //Act
-            //var codigo = this.app.Gerar();
-
-            //Assert
-            //Assert.IsTrue(codigo == "ABC-123999");
         }
     }
 }

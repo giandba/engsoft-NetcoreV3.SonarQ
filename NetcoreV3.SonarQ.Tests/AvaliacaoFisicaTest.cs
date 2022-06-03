@@ -40,7 +40,6 @@ namespace NetcoreV3.SonarQ.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ValorInvalidoException))]
         public void DeveCalcularImcDivisaoPorZero()
         {
             //Arrange
@@ -49,6 +48,7 @@ namespace NetcoreV3.SonarQ.Tests
             var imc = this.app.CalcularIMC(0, 90);
 
             //Assert
+            Assert.IsTrue(double.IsInfinity(imc));
         }
     }
 }
