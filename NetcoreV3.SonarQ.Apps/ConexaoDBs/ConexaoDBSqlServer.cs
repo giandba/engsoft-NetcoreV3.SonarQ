@@ -18,7 +18,8 @@ namespace NetcoreV3.SonarQ.Apps.ConexaoDBs
 
         public async Task<IEnumerable<dynamic>> ConsultaUsuarioPorNome(string nome)
         {
-            var query = @"select * from users where nome like '%" + nome + "%'";
+            var query = @"select * from users" +
+                         "where nome like '%" + nome + "%'";
 
             using (var sqlCon = new SqlConnection("Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=123"))
             using (var sqlCmd = new SqlCommand(query, sqlCon))

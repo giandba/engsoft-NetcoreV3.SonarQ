@@ -1,44 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CoverageSession>
-  <Summary numSequencePoints="51" visitedSequencePoints="12" numBranchPoints="28" visitedBranchPoints="2" sequenceCoverage="23.52" branchCoverage="7.14" maxCyclomaticComplexity="34" minCyclomaticComplexity="34" visitedClasses="2" numClasses="5" visitedMethods="2" numMethods="9" />
+  <Summary numSequencePoints="99" visitedSequencePoints="29" numBranchPoints="40" visitedBranchPoints="3" sequenceCoverage="29.29" branchCoverage="7.5" maxCyclomaticComplexity="49" minCyclomaticComplexity="49" visitedClasses="3" numClasses="6" visitedMethods="5" numMethods="13" />
   <Modules>
-    <Module hash="C32EF4F8-C821-45D8-91D4-97750F24892A">
+    <Module hash="AEFAF956-6A60-4B21-8C0C-6F7DFFF15C63">
       <ModulePath>NetcoreV3.SonarQ.Apps.dll</ModulePath>
-      <ModuleTime>2022-05-10T01:15:50</ModuleTime>
+      <ModuleTime>2022-06-06T02:39:22</ModuleTime>
       <ModuleName>NetcoreV3.SonarQ.Apps</ModuleName>
       <Files>
         <File uid="1" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\AvaliacaoFisica.cs" />
         <File uid="2" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadrao1.cs" />
         <File uid="3" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadrao2.cs" />
-        <File uid="4" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadraoBase.cs" />
-        <File uid="5" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\DomainExceptions\ValorInvalidoException.cs" />
+        <File uid="4" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadrao3.cs" />
+        <File uid="5" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\Factories\GerarCodigoCadastroPadraoBase.cs" />
+        <File uid="6" fullPath="E:\_Storage\Giancarlo\_UniBrasil\_workspaceUnibrasil\NetcoreV3.SonarQ\NetcoreV3.SonarQ.Apps\DomainExceptions\ValorInvalidoException.cs" />
       </Files>
       <Classes>
         <Class>
-          <Summary numSequencePoints="26" visitedSequencePoints="9" numBranchPoints="26" visitedBranchPoints="2" sequenceCoverage="34.61" branchCoverage="7.69" maxCyclomaticComplexity="24" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <Summary numSequencePoints="27" visitedSequencePoints="7" numBranchPoints="24" visitedBranchPoints="0" sequenceCoverage="25.92" branchCoverage="0" maxCyclomaticComplexity="24" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
           <FullName>NetcoreV3.SonarQ.Apps.AvaliacaoFisica</FullName>
           <Methods>
-            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="70" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="70" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Double NetcoreV3.SonarQ.Apps.AvaliacaoFisica::CalcularIMC(System.Double,System.Double)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="3" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="2" bev="2" fileid="1" />
-                <SequencePoint vc="1" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="2" uspid="18" ordinal="4" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="2" uspid="19" ordinal="5" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="2" uspid="20" ordinal="6" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="2" uspid="21" ordinal="7" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="2" uspid="22" ordinal="8" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="28" ordinal="9" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="1" />
               </SequencePoints>
-              <BranchPoints>
-                <BranchPoint vc="1" uspid="13" ordinal="0" path="0" offset="15" offsetend="17" sl="13" fileid="1" />
-                <BranchPoint vc="2" uspid="13" ordinal="1" path="1" offset="15" offsetend="29" sl="13" fileid="1" />
-              </BranchPoints>
-              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="12" ec="1" el="22" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="13" ec="1" el="28" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="24" nPathComplexity="24" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="24" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="24" minCyclomaticComplexity="24" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -46,56 +45,56 @@
               <Name>System.String NetcoreV3.SonarQ.Apps.AvaliacaoFisica::RetornaClassificacaoIMC(System.Double)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="26" ordinal="1" sl="26" sc="1" el="26" ec="2" bec="2" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="27" ordinal="2" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="28" ordinal="3" sl="28" sc="1" el="28" ec="2" bec="4" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="29" ordinal="4" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="30" ordinal="5" sl="30" sc="1" el="30" ec="2" bec="4" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="31" ordinal="6" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="32" ordinal="7" sl="32" sc="1" el="32" ec="2" bec="4" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="33" ordinal="8" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="34" ordinal="9" sl="34" sc="1" el="34" ec="2" bec="4" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="35" ordinal="10" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="36" ordinal="11" sl="36" sc="1" el="36" ec="2" bec="4" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="37" ordinal="12" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="38" ordinal="13" sl="38" sc="1" el="38" ec="2" bec="2" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="39" ordinal="14" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="41" ordinal="15" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="0" uspid="42" ordinal="16" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" sl="32" sc="1" el="32" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" sl="34" sc="1" el="34" ec="2" bec="4" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="35" ordinal="4" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="36" ordinal="5" sl="36" sc="1" el="36" ec="2" bec="4" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="37" ordinal="6" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="38" ordinal="7" sl="38" sc="1" el="38" ec="2" bec="4" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="39" ordinal="8" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="40" ordinal="9" sl="40" sc="1" el="40" ec="2" bec="4" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="41" ordinal="10" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="42" ordinal="11" sl="42" sc="1" el="42" ec="2" bec="4" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="43" ordinal="12" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="44" ordinal="13" sl="44" sc="1" el="44" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="45" ordinal="14" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="47" ordinal="15" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="48" ordinal="16" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="26" ordinal="0" path="0" offset="15" offsetend="17" sl="26" fileid="1" />
-                <BranchPoint vc="0" uspid="26" ordinal="1" path="1" offset="15" offsetend="28" sl="26" fileid="1" />
-                <BranchPoint vc="0" uspid="28" ordinal="2" path="0" offset="38" offsetend="40" sl="28" fileid="1" />
-                <BranchPoint vc="0" uspid="28" ordinal="3" path="1" offset="38" offsetend="54" sl="28" fileid="1" />
-                <BranchPoint vc="0" uspid="28" ordinal="4" path="0" offset="57" offsetend="59" sl="28" fileid="1" />
-                <BranchPoint vc="0" uspid="28" ordinal="5" path="1" offset="57" offsetend="70" sl="28" fileid="1" />
-                <BranchPoint vc="0" uspid="30" ordinal="6" path="0" offset="80" offsetend="82" sl="30" fileid="1" />
-                <BranchPoint vc="0" uspid="30" ordinal="7" path="1" offset="80" offsetend="96" sl="30" fileid="1" />
-                <BranchPoint vc="0" uspid="30" ordinal="8" path="0" offset="99" offsetend="101" sl="30" fileid="1" />
-                <BranchPoint vc="0" uspid="30" ordinal="9" path="1" offset="99" offsetend="112" sl="30" fileid="1" />
-                <BranchPoint vc="0" uspid="32" ordinal="10" path="0" offset="122" offsetend="124" sl="32" fileid="1" />
-                <BranchPoint vc="0" uspid="32" ordinal="11" path="1" offset="122" offsetend="138" sl="32" fileid="1" />
-                <BranchPoint vc="0" uspid="32" ordinal="12" path="0" offset="143" offsetend="145" sl="32" fileid="1" />
-                <BranchPoint vc="0" uspid="32" ordinal="13" path="1" offset="143" offsetend="153" sl="32" fileid="1" />
-                <BranchPoint vc="0" uspid="34" ordinal="14" path="0" offset="163" offsetend="165" sl="34" fileid="1" />
-                <BranchPoint vc="0" uspid="34" ordinal="15" path="1" offset="163" offsetend="179" sl="34" fileid="1" />
-                <BranchPoint vc="0" uspid="34" ordinal="16" path="0" offset="184" offsetend="186" sl="34" fileid="1" />
-                <BranchPoint vc="0" uspid="34" ordinal="17" path="1" offset="184" offsetend="194" sl="34" fileid="1" />
-                <BranchPoint vc="0" uspid="36" ordinal="18" path="0" offset="204" offsetend="206" sl="36" fileid="1" />
-                <BranchPoint vc="0" uspid="36" ordinal="19" path="1" offset="204" offsetend="220" sl="36" fileid="1" />
-                <BranchPoint vc="0" uspid="36" ordinal="20" path="0" offset="225" offsetend="227" sl="36" fileid="1" />
-                <BranchPoint vc="0" uspid="36" ordinal="21" path="1" offset="225" offsetend="235" sl="36" fileid="1" />
-                <BranchPoint vc="0" uspid="38" ordinal="22" path="0" offset="251" offsetend="253" sl="38" fileid="1" />
-                <BranchPoint vc="0" uspid="38" ordinal="23" path="1" offset="251" offsetend="261" sl="38" fileid="1" />
+                <BranchPoint vc="0" uspid="32" ordinal="0" path="0" offset="15" offsetend="17" sl="32" fileid="1" />
+                <BranchPoint vc="0" uspid="32" ordinal="1" path="1" offset="15" offsetend="28" sl="32" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="2" path="0" offset="38" offsetend="40" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="3" path="1" offset="38" offsetend="54" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="4" path="0" offset="57" offsetend="59" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="5" path="1" offset="57" offsetend="70" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="36" ordinal="6" path="0" offset="80" offsetend="82" sl="36" fileid="1" />
+                <BranchPoint vc="0" uspid="36" ordinal="7" path="1" offset="80" offsetend="96" sl="36" fileid="1" />
+                <BranchPoint vc="0" uspid="36" ordinal="8" path="0" offset="99" offsetend="101" sl="36" fileid="1" />
+                <BranchPoint vc="0" uspid="36" ordinal="9" path="1" offset="99" offsetend="112" sl="36" fileid="1" />
+                <BranchPoint vc="0" uspid="38" ordinal="10" path="0" offset="122" offsetend="124" sl="38" fileid="1" />
+                <BranchPoint vc="0" uspid="38" ordinal="11" path="1" offset="122" offsetend="138" sl="38" fileid="1" />
+                <BranchPoint vc="0" uspid="38" ordinal="12" path="0" offset="143" offsetend="145" sl="38" fileid="1" />
+                <BranchPoint vc="0" uspid="38" ordinal="13" path="1" offset="143" offsetend="153" sl="38" fileid="1" />
+                <BranchPoint vc="0" uspid="40" ordinal="14" path="0" offset="163" offsetend="165" sl="40" fileid="1" />
+                <BranchPoint vc="0" uspid="40" ordinal="15" path="1" offset="163" offsetend="179" sl="40" fileid="1" />
+                <BranchPoint vc="0" uspid="40" ordinal="16" path="0" offset="184" offsetend="186" sl="40" fileid="1" />
+                <BranchPoint vc="0" uspid="40" ordinal="17" path="1" offset="184" offsetend="194" sl="40" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="18" path="0" offset="204" offsetend="206" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="19" path="1" offset="204" offsetend="220" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="20" path="0" offset="225" offsetend="227" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="21" path="1" offset="225" offsetend="235" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="44" ordinal="22" path="0" offset="251" offsetend="253" sl="44" fileid="1" />
+                <BranchPoint vc="0" uspid="44" ordinal="23" path="1" offset="251" offsetend="261" sl="44" fileid="1" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="25" ec="1" el="42" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="31" ec="1" el="48" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <Summary numSequencePoints="9" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="88.88" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="3" />
           <FullName>NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao1</FullName>
           <Methods>
             <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="True" isSetter="False" isStatic="True">
@@ -104,24 +103,38 @@
               <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao1::get_TipoCodigo()</Name>
               <FileRef uid="2" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao1::Gerar()</Name>
               <FileRef uid="2" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="2" />
-                <SequencePoint vc="0" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
-                <SequencePoint vc="0" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="2" />
-                <SequencePoint vc="0" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="2" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="21" ec="1" el="25" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao1::.ctor(NetcoreV3.SonarQ.Apps.Interfaces.IGerarCodigoRandomico)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="13" ordinal="3" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="10" ec="1" el="13" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
@@ -166,53 +179,148 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
-          <FullName>NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase</FullName>
+          <Summary numSequencePoints="28" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao3</FullName>
           <Methods>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase::GeraCodigo(System.Int32,System.String,System.String)</Name>
+              <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao3::get_TipoCodigo()</Name>
               <FileRef uid="4" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="4" />
-                <SequencePoint vc="0" uspid="10" ordinal="1" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="4" />
-                <SequencePoint vc="0" uspid="11" ordinal="2" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="4" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="11" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="10" nPathComplexity="10" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="27" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Void NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase::.ctor()</Name>
+              <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadrao3::Gerar()</Name>
               <FileRef uid="4" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="5" ordinal="0" sl="5" sc="1" el="5" ec="2" bec="0" bev="0" fileid="4" />
-                <SequencePoint vc="0" uspid="6" ordinal="1" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="4" />
-                <SequencePoint vc="0" uspid="7" ordinal="2" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="5" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="22" ordinal="6" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="7" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="8" sl="24" sc="1" el="24" ec="2" bec="4" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="25" ordinal="9" sl="25" sc="1" el="25" ec="2" bec="2" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="26" ordinal="10" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="27" ordinal="11" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="28" ordinal="12" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="29" ordinal="13" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="30" ordinal="14" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="31" ordinal="15" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="33" ordinal="16" sl="33" sc="1" el="33" ec="2" bec="2" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="34" ordinal="17" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="35" ordinal="18" sl="35" sc="1" el="35" ec="2" bec="2" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="36" ordinal="19" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="37" ordinal="20" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="38" ordinal="21" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="39" ordinal="22" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="40" ordinal="23" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="42" ordinal="24" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="44" ordinal="25" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="45" ordinal="26" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="4" />
               </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="5" ec="1" el="7" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="24" ordinal="0" path="0" offset="86" offsetend="88" sl="24" fileid="4" />
+                <BranchPoint vc="0" uspid="24" ordinal="1" path="1" offset="86" offsetend="100" sl="24" fileid="4" />
+                <BranchPoint vc="0" uspid="24" ordinal="2" path="0" offset="105" offsetend="107" sl="24" fileid="4" />
+                <BranchPoint vc="0" uspid="25" ordinal="5" path="1" offset="149" offsetend="113" sl="25" fileid="4" />
+                <BranchPoint vc="0" uspid="25" ordinal="4" path="0" offset="149" offsetend="151" sl="25" fileid="4" />
+                <BranchPoint vc="0" uspid="24" ordinal="3" path="1" offset="105" offsetend="154" sl="24" fileid="4" />
+                <BranchPoint vc="0" uspid="33" ordinal="9" path="1" offset="271" offsetend="176" sl="33" fileid="4" />
+                <BranchPoint vc="0" uspid="35" ordinal="6" path="0" offset="187" offsetend="189" sl="35" fileid="4" />
+                <BranchPoint vc="0" uspid="35" ordinal="7" path="1" offset="187" offsetend="218" sl="35" fileid="4" />
+                <BranchPoint vc="0" uspid="33" ordinal="8" path="0" offset="271" offsetend="273" sl="33" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="16" ec="1" el="45" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
-          <FullName>NetcoreV3.SonarQ.Apps.DomainExceptions.ValorInvalidoException</FullName>
+          <Summary numSequencePoints="18" visitedSequencePoints="14" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="77.77" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase</FullName>
           <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="73.33" branchCoverage="75" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="15" visitedSequencePoints="11" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="73.33" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase::GeraCodigo(System.Int32,System.String,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="14" ordinal="3" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="15" ordinal="4" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="16" ordinal="5" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="17" ordinal="6" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="19" ordinal="7" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="21" ordinal="8" sl="21" sc="1" el="21" ec="2" bec="2" bev="1" fileid="5" />
+                <SequencePoint vc="0" uspid="22" ordinal="9" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="23" ordinal="10" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="24" ordinal="11" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="25" ordinal="12" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="27" ordinal="13" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="28" ordinal="14" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="13" ordinal="0" path="0" offset="20" offsetend="22" sl="13" fileid="5" />
+                <BranchPoint vc="1" uspid="13" ordinal="1" path="1" offset="20" offsetend="44" sl="13" fileid="5" />
+                <BranchPoint vc="0" uspid="21" ordinal="2" path="0" offset="69" offsetend="71" sl="21" fileid="5" />
+                <BranchPoint vc="1" uspid="21" ordinal="3" path="1" offset="69" offsetend="93" sl="21" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="11" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="10" ec="1" el="28" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
-              <Name>System.Void NetcoreV3.SonarQ.Apps.DomainExceptions.ValorInvalidoException::.ctor(System.String)</Name>
+              <Name>System.Void NetcoreV3.SonarQ.Apps.Factories.GerarCodigoCadastroPadraoBase::.ctor()</Name>
               <FileRef uid="5" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="1" uspid="8" ordinal="1" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="1" uspid="9" ordinal="2" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="5" ordinal="0" sl="5" sc="1" el="5" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="6" ordinal="1" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="7" ordinal="2" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="5" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="7" ec="1" el="9" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="5" ec="1" el="7" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>NetcoreV3.SonarQ.Apps.DomainExceptions.ValorInvalidoException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void NetcoreV3.SonarQ.Apps.DomainExceptions.ValorInvalidoException::.ctor(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="8" ordinal="1" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="9" ordinal="2" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="7" ec="1" el="9" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void NetcoreV3.SonarQ.Apps.DomainExceptions.ValorInvalidoException::.ctor(System.String,System.Exception)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="12" ordinal="1" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="11" ec="1" el="13" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>

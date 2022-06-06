@@ -5,7 +5,7 @@ namespace NetcoreV3.SonarQ.Apps.Factories
 {
     public class GerarCodigoCadastroPadrao1 : GerarCodigoCadastroPadraoBase, IGerarCodigoCadastro
     {
-        private readonly IGerarCodigoRandomico _gerarCodigoRandomico;
+        public readonly IGerarCodigoRandomico _gerarCodigoRandomico;
 
         public GerarCodigoCadastroPadrao1(IGerarCodigoRandomico gerarCodigoRandomico)
         {

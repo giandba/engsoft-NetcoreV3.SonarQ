@@ -7,7 +7,7 @@ namespace NetcoreV3.SonarQ.Apps.Factories
     {
         public string TipoCodigo => "PADRAO2";
         /// <summary>
-        ///    Padrão 1: "XYZ-000000-CAD";
+        ///    Padrão 2: "XYZ-000000-CAD";
         /// </summary>
         public string Gerar()
         {

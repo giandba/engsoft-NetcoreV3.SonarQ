@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NetcoreV3.SonarQ.Apps.Interfaces;
+using NetcoreV3.SonarQ.Api.Models;
 
 namespace NetcoreV3.SonarQ.Api.Controllers
 {

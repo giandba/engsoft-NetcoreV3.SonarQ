@@ -73,8 +73,8 @@ dotnet build <path to solution.sln>
 dotnet sonarscanner end /d:sonar.login="<token>"
 
 ####
-dotnet sonarscanner begin /k:"engsoft-analisesonar" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e" /d:sonar.cs.opencover.reportsPaths="./NetcoreV3.SonarQ.Tests/coverage_result/coverage.opencover.xml"
+dotnet sonarscanner begin /k:"engsoft-analisesonar" /d:sonar.login="a901b9af9f47b3286fa457e66f73b412c54a757c" /d:sonar.host.url="http://localhost:9000" /d:sonar.cs.opencover.reportsPaths="./NetcoreV3.SonarQ.Tests/coverage_result/coverage.opencover.xml"
 dotnet build
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="./coverage_result/"
-dotnet sonarscanner end /d:sonar.login="654ad2cf9887e4a8dbf30f139a8c6416e6ee305e"
+dotnet sonarscanner end /d:sonar.login="a901b9af9f47b3286fa457e66f73b412c54a757c"
 
