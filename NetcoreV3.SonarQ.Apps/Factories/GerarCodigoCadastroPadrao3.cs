@@ -8,7 +8,7 @@ namespace NetcoreV3.SonarQ.Apps.Factories
     {
         public string TipoCodigo => "PADRAO3";
         /// <summary>
-        ///    Padrão 3: "PROD-000000-[X]-000000-[X]-[DIFF]-TEST";
+        ///    Padrão 3: "PROD-000000-[X]-000000-[X]-[DIFF]-[PAR | IMPAR]";
         //     [X] = SE CODIGO FOR PAR, ULTIMO DIGITO SENAO O PRIMEIRO
         //     [DIFF] = (CODIGO1 + CODIGO2) / 2
         /// </summary>
@@ -21,27 +21,43 @@ namespace NetcoreV3.SonarQ.Apps.Factories
             var c1 = "";
             var c2 = "";
             var codigoRandon1Array = codigoRandon1.ToString().ToArray();
-            if(codigoRandon1 % 2 == 0 && codigoRandon1Array.Length >= 0){
-                for (int i = 0; i < codigoRandon1Array.Length; i++)
+            var diffParImpart = "";
+
+            if(codigoRandon1 > 0){
+                for (int i = 0; i < codigoRandon1.ToString().Length; i++)
                 {
-                    c1 = codigoRandon1Array[i].ToString();
+                    if(codigoRandon1 % 2 == 0 && codigoRandon1.ToString()[i].ToString().Length >= 0){
+                        c1 = codigoRandon1.ToString()[i].ToString();
+                    }else if(codigoRandon1.ToString()[i].ToString().Length >= 0){
+                        c1 = codigoRandon1.ToString()[0].ToString();
+                    }else{
+                        c1="X";
+                    }
                 }
-            }else{
-                c1 = codigoRandon1Array[0].ToString();
             }
             
-            for (int i = 0; i < codigoRandon2.ToString().Length; i++)
-            {
-                if(codigoRandon2 % 2 == 0){
+            if(codigoRandon1 > 0){
+                for (int i = 0; i < codigoRandon2.ToString().Length; i++)
+                {
+                    if(codigoRandon2 % 2 == 0 && codigoRandon1.ToString()[i].ToString().Length >= 0){
                         c2 = codigoRandon1.ToString()[i].ToString();//
-                }else{
-                    c2 = codigoRandon2.ToString()[0].ToString();
+                    }else if(codigoRandon1.ToString()[i].ToString().Length >= 0){
+                        c2 = codigoRandon2.ToString()[0].ToString();
+                    }else{
+                        c2="X";
+                    }
                 }
             }
 
             var diff = (codigoRandon1 + codigoRandon2) / 2;
 
-            return $"PROD-{codigoRandon1}-{c1}-{codigoRandon2}-{c2}-{diff}-TEST";
+            if(diff % 2 == 0){
+                diffParImpart = "PAR";
+            }else if(diff % 2 != 0){
+                diffParImpart = "IMPAR";
+            }
+
+            return $"PROD-{codigoRandon1}-{c1}-{codigoRandon2}-{c2}-{diff}-{diffParImpart}";
         }
     }
 }
